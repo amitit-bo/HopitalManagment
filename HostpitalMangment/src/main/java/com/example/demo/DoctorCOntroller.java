@@ -1,11 +1,12 @@
 package com.example.demo;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DoctorCOntroller {
 
-	@PostMapping
+	@GetMapping
 	String addDoctor()
 	{
 		return "added";
