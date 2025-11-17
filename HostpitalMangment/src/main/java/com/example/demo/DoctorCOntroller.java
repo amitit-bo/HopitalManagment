@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DoctorCOntroller {
 
 	@GetMapping
-	String addDoctorssss()
+	String addDoctorssssssss()
 	{
 		return "saved";
 	}
