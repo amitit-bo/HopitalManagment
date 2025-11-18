@@ -9,7 +9,7 @@ public class DoctorCOntroller {
 	@GetMapping
 	String addDoctorssssssss()
 	{
-		return "saved";
+		return "added";
 	}
 	
 	
